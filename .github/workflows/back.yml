@@ -1,0 +1,4 @@
+- name: docker-back
+        run: |
+          cd words
+          docker build -t wendyblt/docker-back .
